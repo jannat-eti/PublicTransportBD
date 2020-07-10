@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminAddStationActivity">
+
+
+    <EditText
+        android:id="@+id/ET_station_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ccc"
+        android:paddingLeft="8dp"
+        android:hint="Enter Station Name"
+        android:layout_margin="5dp"/>
+
+
+    <EditText
+        android:id="@+id/ET_station_order"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ccc"
+        android:paddingLeft="8dp"
+        android:hint="Enter Station Order"
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/ET_station_distance"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ccc"
+        android:paddingLeft="8dp"
+        android:hint="Enter Station Distance"
+        android:layout_margin="5dp"
+        android:inputType="numberDecimal"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bus_list_arrow_IV"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_arrow_drop"
+            android:layout_gravity="right"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bus_list_RV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="5dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/insert_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp"
+        android:textColor="#fff"
+        android:text="Insert"/>
+
+</LinearLayout>

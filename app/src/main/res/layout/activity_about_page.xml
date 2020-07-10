@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#009688"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name : Jannatun Nayem"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#009688"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Phone :  01516186185"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#009688"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Name :  Tanjina Yeasmin"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:textColor="#009688"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Phone : 01797472718"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#009688"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Gmail : jannateti00@gmail.com"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17sp"
+        android:textColor="#009688"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

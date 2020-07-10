@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_bkash"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BiKash"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <CheckBox
+                    android:id="@+id/CB_bus_bolaka"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Bolaka"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_brtc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="BRTC"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <CheckBox
+                    android:id="@+id/CB_bus_provati"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Provati Bonosri"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_himaloy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Himaloy"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <CheckBox
+                    android:id="@+id/CB_bus_skyline"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Skyline Express"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_vip"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="VIP"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <CheckBox
+                    android:id="@+id/CB_bus_ajmeri"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ajmeri"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_turag"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Turag"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/CB_bus_raida"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Raida"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_onabil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Onabil"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <CheckBox
+                    android:id="@+id/CB_bus_asmani"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Asmani"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_salsabil"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Salsabil"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+                <CheckBox
+                    android:id="@+id/CB_bus_pollobi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pollobi"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_margin="5dp">
+
+                <CheckBox
+                    android:id="@+id/CB_bus_bhuiya"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Bhuiya"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/CB_bus_boshumoti"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Boshumoti"
+                    android:textSize="18sp"
+                    android:padding="5dp"/>
+
+            </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <Button
+                   android:id="@+id/BTN_cancel"
+                   android:layout_width="0dp"
+                   android:layout_height="35dp"
+                   android:layout_weight="1"
+                   android:layout_margin="5dp"
+                   android:background="@color/colorAccent"
+                   android:text="Cancel"
+                   android:textColor="#fff"/>
+
+               <Button
+                   android:id="@+id/BTN_done"
+                   android:layout_width="0dp"
+                   android:layout_height="35dp"
+                   android:layout_weight="1"
+                   android:layout_margin="5dp"
+                   android:background="@color/colorPrimary"
+                   android:text="Done"
+                   android:textColor="#fff"/>
+
+           </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

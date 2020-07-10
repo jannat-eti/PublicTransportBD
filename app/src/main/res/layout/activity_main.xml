@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#f5f5f5"
+        android:elevation="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ET_input_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your email: "
+                android:padding="8dp"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/ET_input_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your Password: "
+                android:padding="8dp"
+                android:inputType="textPassword"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BTN_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:id="@+id/TV_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Not registered yet? Create Account"
+            android:padding="8dp"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

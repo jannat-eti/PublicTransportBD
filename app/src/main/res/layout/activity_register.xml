@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="#f5f5f5"
+        android:elevation="5dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ET_input_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your email: "
+                android:padding="8dp"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:id="@+id/ET_input_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter your Password: "
+                android:padding="8dp"
+                android:inputType="textPassword"
+                />
+
+            <EditText
+                android:id="@+id/ET_input_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Confirm your Password: "
+                android:padding="8dp"
+                android:inputType="textPassword"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/BTN_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@color/colorPrimary"
+            android:textColor="#fff"
+            android:layout_margin="5dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

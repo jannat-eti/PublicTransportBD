@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Public Transport BD</string>
+    <string-array name="country">
+        <item>Bangladesh</item>
+        <item>America</item>
+        <item>Spain</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>Newjeland</item>
+        <item>Bhutan</item>
+        <item>Myanmar</item>
+        <item>France</item>
+        <item>Nepal</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

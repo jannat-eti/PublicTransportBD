@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/ET_station_bus_list"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Buy Ticket"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Buy Ticket"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="5dp"/>
+
+
+
+    <Button
+        android:id="@+id/insert_BTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp"
+        android:textColor="#fff"
+        android:text="Insert"/>
+
+
+</LinearLayout>

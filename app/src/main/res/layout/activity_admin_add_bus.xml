@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminAddBusActivity"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/bus_name_ET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:hint="Add Bus Name"
+        android:background="#ccc"
+        android:paddingLeft="8dp"/>
+
+    <LinearLayout
+        android:id="@+id/add_bus_LAYOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+
+
+
+        <Button
+            android:id="@+id/add_bus_BTN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Add Bus"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:paddingLeft="8dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
